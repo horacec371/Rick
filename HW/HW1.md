@@ -29,7 +29,7 @@ void IF() {
 }
 ```
 ## result
-* 先執行makefile將檔案編譯在執行compiler.exe
+* 先執行makefile將檔案編譯後在執行compiler.exe
 ```
 PS C:\Users\rick2\sp109b\03b-compiler2> make
 gcc -std=c99 -O0 lexer.c compiler.c main.c -o compiler
