@@ -1,4 +1,7 @@
 # HW2: for
+## file
+* [compiler.c](https://github.com/cycyucheng1010/sp109b/blob/main/03b-compiler2/compiler.c)
+* [for.c](https://github.com/cycyucheng1010/sp109b/blob/main/03b-compiler2/test/for.c)
 ## code
 * 參考if跟while寫出
     * skip for ()
