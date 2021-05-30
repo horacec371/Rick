@@ -1,4 +1,7 @@
 # HW1: If 
+## file
+* [compiler.c](https://github.com/cycyucheng1010/sp109b/blob/main/03b-compiler2/compiler.c)
+* [if.c](https://github.com/cycyucheng1010/sp109b/blob/main/03b-compiler2/test/if.c)
 ## code 
 * 參考while函式寫出
     * skip if, else,()
@@ -25,7 +28,8 @@ void IF() {
   }
 }
 ```
-## result 
+## result
+* 先執行makefile將檔案編譯在執行compiler.exe
 ```
 PS C:\Users\rick2\sp109b\03b-compiler2> make
 gcc -std=c99 -O0 lexer.c compiler.c main.c -o compiler
