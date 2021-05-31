@@ -8,3 +8,4 @@
 [第五週](https://github.com/cycyucheng1010/sp109b/blob/main/Note/20210326%E7%AC%AC%E4%BA%94%E9%80%B1%E7%AD%86%E8%A8%98.md) | 虛擬機(Virtual Machine) 
 [第六週](https://github.com/cycyucheng1010/sp109b/blob/main/Note/20210331%E7%AC%AC%E5%85%AD%E9%80%B1%E7%AD%86%E8%A8%98.md) | 程式編譯、組譯、連結、載入之流程 <br> 
 [第八週](https://github.com/cycyucheng1010/sp109b/blob/main/Note/20210414%E7%AC%AC%E5%85%AB%E9%80%B1%E7%AD%86%E8%A8%98.md) | Unix家族的演變 <br> glib <br> pkg-config <br> 指令 <br> POSIX
+[第九週](https://github.com/cycyucheng1010/sp109b/blob/main/Note/20210423%E7%AC%AC%E4%B9%9D%E9%80%B1%E7%AD%86%E8%A8%98.md) | 記憶體分配 <br> Process V.S. Thread <br> 簡介作業系統 <br> 作業系統的五大功能模組
