@@ -1,4 +1,4 @@
-# 109b系統程式筆記區
+# 系統程式筆記目錄
 週次 | 內容
 ---- | ----
 [第一週](https://github.com/cycyucheng1010/sp109b/blob/main/Note/20210224%E7%AC%AC%E4%B8%80%E9%80%B1%E7%AD%86%E8%A8%98.md) | 評分方式 <br> 系統程式課程地圖 <br> 系統程式 V.S. 系統軟體 <br> gcc and makefile
