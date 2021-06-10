@@ -9,3 +9,5 @@
 [第六週](https://github.com/cycyucheng1010/sp109b/blob/main/Note/20210331%E7%AC%AC%E5%85%AD%E9%80%B1%E7%AD%86%E8%A8%98.md) | 程式編譯、組譯、連結、載入之流程 <br> 
 [第八週](https://github.com/cycyucheng1010/sp109b/blob/main/Note/20210414%E7%AC%AC%E5%85%AB%E9%80%B1%E7%AD%86%E8%A8%98.md) | Unix家族的演變 <br> glib <br> pkg-config <br> 指令 <br> POSIX
 [第九週](https://github.com/cycyucheng1010/sp109b/blob/main/Note/20210423%E7%AC%AC%E4%B9%9D%E9%80%B1%E7%AD%86%E8%A8%98.md) | 記憶體分配 <br> Process V.S. Thread <br> 簡介作業系統 <br> 作業系統的五大功能模組
+[第十週](https://github.com/cycyucheng1010/sp109b/blob/main/Note/20210428%E7%AC%AC%E5%8D%81%E9%80%B1%E7%AD%86%E8%A8%98.md) | 單行程系統與多工系統之比較 <br> 協同式多工系統 <br> 競爭情況 <br> 死結 <br> 排程的方法 <br> 記憶體管理單元 (MMU)
+ 
