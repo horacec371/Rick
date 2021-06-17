@@ -1,0 +1,2371 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="zh-TW">
+
+
+
+<head>
+
+  <title>國立金門大學-></title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+
+  <!-- beginRow meta_data -->
+
+  	<meta name="DC.Title" content="國立金門大學" />
+
+	<meta name="DC.Creator" content="國立金門大學" />
+
+	<meta name="DC.Subject" content="教育" />
+
+	<meta name="DC.Description" content="國立金門大學" />
+
+	<meta name="DC.Contributor" content="國立金門大學" />
+
+	<meta name="DC.Type" content="text/html" />
+
+	<meta name="DC.Format" content="text" />
+
+	<meta name="DC.Source" content="國立金門大學" />
+
+	<meta name="DC.Language" content="中文" />
+
+	<meta name="DC.coverage.t.min" content="2009-01-12" />
+
+	<meta name="DC.coverage.t.max" content="2011-01-30" />
+
+<!--	<meta name="DC.Coverage" content="{Coverage}" /> -->
+
+	<meta name="DC.Publisher" content="國立金門大學" />
+
+	<meta name="DC.Date" content="2009-01-12" />
+
+	<meta name="DC.Identifier" content="80427148" />
+
+	<meta name="DC.Relation" content="無" />
+
+	<meta name="DC.Rights" content="國立金門大學" />
+
+	<meta name="Category.Theme" content="0" />
+
+	<meta name="Category.Cake" content="0" />
+
+	<meta name="keywords" content="金門大學,廈門大學,三聯學制,推薦入學,成功大學,繁星計畫,推薦甄試,學測,指考,獎學金,跨校,轉學考" />
+
+	<meta name="description" content="真知力行，兼善天下。無遠弗屆的遠距教學，一流的師資，實用的課程，新穎的設備。" />
+
+	<meta name="Category.Service" content="0" />
+
+	<meta name="Keywords" content="國立金門大學" />
+
+	<!-- endRow meta_data -->
+
+  <script language="javascript">
+
+  <!--
+
+	var _CurrentURL		= '/cht/index.php?act=index';
+
+	var _RequestURI		= '/cht/index.php?';
+
+	var _PHP_SELF		= '/cht/index.php';
+
+	var SYS_BO		= '%SYS_BO%';
+
+	var OrderURL		= '/cht/index.php?'; 
+
+	var CurOrderField	= '';
+
+	var CurOrderMode	= '';
+
+	
+
+	var lang_notnull	= '不能為空';
+
+	var lang_neednumeric	= '只能輸入數字';
+
+	var lang_needfloat	= '必須輸入整數或小數';
+
+	var lang_needemail	= '不正確的EMAIL地址格式';
+
+	var lang_uid		= '不正確的身份證格式';
+
+	var lang_neededate	= '不正確的日期格式';
+
+	var lang_nosel		= '請先選擇要管理的資料';
+
+	var lang_opt_confirm	= '是否確認對選定項目進行此管理?';
+
+	var lang_logout_confirm	= '是否確定離開管理系統?';
+
+	var lang_delete_confirm	= '是否確定要刪除此項目?';
+
+	var lang_minlength	= '最少字符數為: ';
+
+	var lang_maxlength	= '最大字符數為: ';
+
+	var lang_err_fileformat	= '上傳了無效的檔案格式, 只能上傳: %s 類型的檔案';
+
+  -->
+
+
+
+  </script>
+
+<link rel="stylesheet" href="../cache/css228.css">  
+
+<script language="javascript" src="../js/count_checkbox.js"></script>
+
+<script language="javascript" src="../js/common.js"></script>
+
+<link rel="stylesheet" href="../js/calendar/calendar-mos.css">
+
+<script language="javascript" src="../js/calendar/calendar.js"></script>
+
+<script type="text/javascript" src="../../jQuery/jquery-1.12.4.js"></script>
+
+<script language="javascript" src="../js/calendar/lang/calendar-en.js"></script>
+
+<script type="text/javascript" src="../js/swfobject.js"></script>
+
+<script type="text/javascript" src="../js/swapimg.js"></script>
+
+<script language="javascript">
+
+var calendar = null;
+
+
+
+	function selected(cal, date) {
+
+		cal.sel.value = date;
+
+	}
+
+
+
+	function closeHandler(cal) {
+
+		cal.hide();
+
+		Calendar.removeEvent(document, "mousedown", checkCalendar);
+
+	}
+
+function checkCalendar(ev) {
+
+		var el = Calendar.is_ie ? Calendar.getElement(ev) : Calendar.getTargetElement(ev);
+
+
+
+		for (; el != null; el = el.parentNode)
+
+		if (el == calendar.element || el.tagName == "A") break;
+
+		if (el == null) {
+
+			calendar.callCloseHandler();
+
+			Calendar.stopEvent(ev);
+
+		}
+
+	}
+
+
+
+	function showCalendar(id) {
+
+		var el = document.getElementById(id);
+
+		var cal = new Calendar(true, null, selected, closeHandler);
+
+
+
+		calendar = cal;	
+
+		cal.setRange(1900, 2070);
+
+		calendar.create();
+
+
+
+		calendar.sel = el;
+
+		calendar.showAtElement(el);
+
+
+
+		Calendar.addEvent(document, "mousedown", checkCalendar);
+
+	}
+
+
+
+</script>
+
+
+
+<script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+
+  ga('create', 'UA-73148584-1', 'auto');
+
+  ga('require', 'linkid');
+
+  ga('send', 'pageview');
+
+
+
+</script>		
+
+</head>
+
+
+
+<body topmargin="0" leftmargin="0">
+
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+
+<style type="text/css">
+
+
+
+#data{ width:988px; position:relative; margin-right: auto; margin-left: auto; text-align:center;}
+
+.menulst{ position:absolute; background:white; display:none; align:left; letter-spacing: 3px;}
+
+span a{ /*background: #2488d4;*/ color:#FFF; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin: 3px;}
+
+div a { text-decoration: none;}
+
+/*次選單CSS開始*/
+
+div#menu * { margin:0; padding:0; z-index:99999;}   
+
+div#menu { color:#fff;width:100%; float:left; background-color:#277dc6; behavior:url(../upload/csshover.htc); padding:6px 0px;}          
+
+div#menu ul { float:left;/* height:1.6em;*/ padding-left:20px;}
+
+div#menu li { list-style-type:none; float:left; position:relative;}
+
+div#menu li ul {display:none; width:20em; position:absolute; left:-1px; top:1.5em; border-right: solid 1px #ccc; border-left: solid 1px #ccc; border-bottom: solid 1px #ccc; background-color:#277dc6; opacity:0.9;-moz-opacity:0.9;filter:alpha(opacity=90);}
+
+div#menu li ul li {/*list-style:none;*/ width:100%;text-align:left; padding:2px 0px;}
+
+div#menu li:hover ul {display:block;}            
+
+div#menu a {padding:0px 5px; display:block; text-decoration:none; color:#fff;}
+
+div#menu a:link {color:#fff; backgronud-color:#fff; padding:5px;}
+
+div#menu a:visited {color#fff; backgronud-color:#fff; padding:5px;}
+
+div#menu a:active {color:#fff; backgronud-color:#fff; padding:5px;}
+
+div#menu a:hover {color:#000; background-color:#ff9; padding:5px;}
+
+.menu_main { font-size:13px;}
+
+.menu_main li { font-size:13px;}
+
+/*次選單CSS結束*/
+
+</style>
+
+<div id="data">
+
+<table border="0" cellspacing="0" cellpadding="0" width="10%">
+
+    <tbody>
+
+        <tr>
+
+            <td valign="top" align="left">
+
+            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+
+                <tbody>
+
+                    <tr>
+
+                       <td valign="top" align="left"><a href="index.php" title="連結至「國立金門大學」"><img border="0" alt="連結至「國立金門大學」" src="https://www.nqu.edu.tw/upload/cht/images/head_01.jpg" /></a></td>
+
+                        <td valign="top" align="left"><a href="index.php?act=sitemap" title="網站地圖"><img border="0" alt="網站地圖" src="https://www.nqu.edu.tw/upload/cht/images/head_02.jpg" /></a></td>
+
+                        <td valign="top" align="left"><a href="index.php" title="回首頁"><img border="0" alt="回首頁" src="https://www.nqu.edu.tw/upload/cht/images/head_03.jpg" /></a></td>
+
+                        <td valign="top" align="left"><a href="index.php?act=faq" title="常見問答"><img border="0" alt="常見問答" src="https://www.nqu.edu.tw/upload/cht/images/head_04.jpg" /></a></td>
+
+                        <td valign="top" align="left"><a href="mailto:yyy0707@nqu.edu.tw" title="校長信箱"><img border="0" alt="校長信箱" src="https://www.nqu.edu.tw/upload/cht/images/head_05.jpg" /></a></td>
+
+                        <td valign="top" align="left"><a href="javascript:window.external.AddFavorite ('https://www.nqu.edu.tw/','國立金門大學')" title="加到我的最愛"><img border="0" alt="加到我的最愛 " src="https://www.nqu.edu.tw/upload/cht/images/head_06.jpg" /></a></td>
+
+                        <td valign="top" align="left"><a href="../cht/index.php?code=list&ids=1&launage=utf-8" title="正體中文版"><img border="0" alt="正體中文版" src="https://www.nqu.edu.tw/upload/cht/images/head_07.jpg" /></a></td>
+
+                        <td valign="top" align="left"><a href="../cht/index.php?code=list&ids=1&launage=gb" title="簡體中文版"><img border="0" alt="簡體中文版" src="https://www.nqu.edu.tw/upload/cht/images/head_08.jpg" /></a></td>
+
+                        <td valign="top" align="left"><a href="../eng/index.php?code=list&ids=1393" title="English"><img border="0" alt="English" src="https://www.nqu.edu.tw/upload/cht/images/head_09.jpg" /></a></td>
+
+                        <!--<td valign="top" align="left"><a href="../eng/index.php" title="English"><img border="0" alt="English" src="https://www.nqu.edu.tw/upload/cht/images/head_09.jpg" /></a></td>-->
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+            </td>
+
+        </tr>
+
+  </tbody>
+
+</table>
+
+
+
+<div id="menu">
+
+    <ul>
+
+        <li class="menu_main"><a href="index.php?code=list&ids=3304" title="關於金大">關於金大</a>
+
+            <ul style="width:12em;">
+
+                <li><a href="index.php?code=list&ids=3305" title="願景">願景</a></li>
+
+                <li><a href="index.php?code=list&ids=3306" title="文化">文化</a></li>
+
+                <li><a href="index.php?code=list&ids=3307" title="校園生活">校園生活</a></li>
+
+                <li><a href="index.php?code=list&ids=3308" title="多元學習">多元學習</a></li>
+
+                <li><a href="index.php?code=list&ids=3309" title="社會責任">社會責任</a></li>
+
+                <li><a href="index.php?code=list&ids=3310" title="校史記要">校史記要</a></li>
+
+                <li><a href="index.php?code=list&ids=3311" title="校徽、校訓、校歌">校徽、校訓、校歌</a></li>
+
+                <li><a href="index.php?code=list&ids=3312" title="生活機能">生活機能</a></li>
+
+                <li><a href="index.php?code=list&ids=3313" title="媒體報導">媒體報導</a></li>
+
+                <!--<li><a href="index.php?code=list&ids=52" title="金大大家長">金大大家長</a></li>
+
+                <li><a href="index.php?code=list&ids=53" title="校徽 校訓 校歌">校徽 校訓 校歌</a></li>
+
+                <li><a href="index.php?code=list&ids=1443" title="教育理念">教育理念</a></li>
+
+                <li><a href="https://www.nqu.edu.tw/orgsecrectary/index.php?code=list&ids=879" title="校史介紹">校史介紹</a></li>
+
+                <li><a href="https://www.nqu.edu.tw/orgsecrectary/index.php?code=list&ids=880" title="大事紀要">大事紀要</a></li>
+
+                <li><a href="index.php?code=list&ids=54" title="資料統計">資料統計</a></li>
+
+                <li><a href="index.php?code=list&ids=56" title="校區建設與建築現況">校區建設與建築現況</a></li>
+
+                <li><a href="index.php?code=list&ids=1447" title="交通資訊">交通資訊</a></li>
+
+                <li><a href="index.php?code=list&ids=57" title="生活機能">生活機能</a></li>
+
+                <li><a href="index.php?code=list&ids=916" title="未來目標">未來目標</a></li>
+
+                <li><a href="index.php?code=list&ids=927" title="媒體報導">媒體報導</a></li>
+
+                <li><a href="index.php?code=list&ids=915" title="歷史活動照片區">歷史活動照片區</a></li>-->
+
+            </ul>
+
+        </li>
+
+        <li class="menu_main"><a href="index.php?code=list&ids=3" title="行政單位">行政單位</a>
+
+            <ul style="width:13em;">
+
+                <li><a href="index.php?code=list&ids=563" title="校長室">校長室</a></li>
+
+                <li><a href="index.php?code=list&ids=2426" title="名譽校長室">名譽校長室</a></li>
+
+                <li><a href="index.php?code=list&ids=1701" title="副校長室">副校長室</a></li>                
+
+                <li><a href="../teach/index.php" title="教務處">教務處</a></li>
+
+                <li><a href="../orgstudent/index.php" title="學生事務處">學生事務處</a></li>
+
+                <li><a href="../orgstuff/index.php" title="總務處">總務處</a></li>
+
+                <li><a href="../rd/index.php" title="研究發展處">研究發展處</a></li>
+
+                <li><a href="../intel/index.php" title="國際暨兩岸事務處">國際暨兩岸事務處</a></li>                                    
+
+                <!--<li><a href="https://www.nqu.edu.tw/rd/index.php?code=list&ids=2934" title="國際暨兩岸事務處">國際暨兩岸事務處</a></li>-->
+
+                                    <li><a href="../ecase/index.php" title="就業輔導暨校友服務中心">就業輔導暨校友服務中心</a></li>                
+
+                <li><a href="../orgcc/" title="計算機與網路中心">計算機與網路中心</a></li>
+
+                <li><a href="../orgshe/index.php" title="環境保護暨安全衛生中心">環境保護暨安全衛生中心</a></li>
+
+                <li><a href="https://www.nqu.edu.tw/orgstudent/index.php?code=list&ids=3284" title="原住民族學生資源中心">原住民族學生資源中心</a></li>
+
+                <li><a href="../orglibrary/index.php" title="圖書館">圖書館</a></li>
+
+                <li><a href="../orgnight/index.php" title="進修推廣部">進修推廣部</a></li>
+
+                <li><a href="../orgsecrectary/index.php" title="秘書室">秘書室</a></li>
+
+                <li><a href="../orgsport/index.php" title="體育室">體育室</a></li>
+
+                <li><a href="../orghr/index.php" title="人事室">人事室</a></li>
+
+                <li><a href="../orgaccounting/index.php" title="主計室">主計室</a></li>
+
+            </ul>
+
+        </li>
+
+        <!--<li class="menu_main"><a href="https://www.nqu.edu.tw/Humanities/index.php">人文藝術學院</a>
+
+            <ul style="width:18em;">
+
+                <li><a href="https://www.nqu.edu.tw/Humanities/index.php">人文藝術學院</a></li>
+
+                <li><a href="https://www.nqu.edu.tw/edualf/index.php">應用英語學系(學士班)</a></li>
+
+                <li><a href="https://www.nqu.edu.tw/eduCS/index.php">華語文學系(學士班)</a></li>
+
+                                    <li><a href="http://www4.nqu.edu.tw/testphp/cs/">華語文學系(學士班)</a></li>
+
+                <li><a href="https://www.nqu.edu.tw/upl/index.php">都市計畫與景觀學系(學士班)</a></li>
+
+                                    <li><a href="https://www.nqu.edu.tw/edusf/index.php">閩南文化研究所(碩士班)</a></li>                       
+
+                <li><a href="https://www.nqu.edu.tw/edualf/index.php?code=list&ids=2301">人文藝術學院語言與跨文化碩士班</a></li>
+
+            </ul>
+
+        </li>-->
+
+        <li class="menu_main"><a href="../social/index.php" title="人文社會學院">人文社會學院</a>
+
+            <ul style="width:24em;">
+
+                <li><a href="../social/index.php" title="人文社會學院">人文社會學院</a></li>
+
+                <li><a href="https://ima.nqu.edu.tw/" title="國際暨大陸事務學系(學士班、碩士班、進修部">國際暨大陸事務學系(學士班、碩士班、進修部)</a></li>
+
+                <!--<li><a href="http://203.72.226.23/" title="國際暨大陸事務學系(學士班、碩士班、進修部">國際暨大陸事務學系(學士班、碩士班、進修部)</a></li>-->
+
+                <li><a href="http://arch.nqu.edu.tw/" title="建築學系(學士班、碩士班)">建築學系(學士班、碩士班)</a></li>
+
+                <li><a href="../eduoab/index.php" title="海洋與邊境管理學系(學士班、碩士班)">海洋與邊境管理學系(學士班、碩士班)</a></li>
+
+                                    <li><a href="../edualf/index.php" title="應用英語學系(學士班、碩士班)">應用英語學系(學士班、碩士班)</a></li>
+
+                <li><a href="../eduCS/index.php" title="華語文學系(學士班)">華語文學系(學士班)</a></li>
+
+                                    <li><a href="../upl/index.php" title="都市計畫與景觀學系(學士班)">都市計畫與景觀學系(學士班)</a></li>
+
+                <!--<li><a href="https://www.nqu.edu.tw/edumarine/index.php">海洋事務研究所(碩士班)</a></li>-->
+
+                                    <li><a href="http://edusf.nqu.edu.tw/">閩南文化碩士學位學程</a></li>
+
+                                    <!--<li><a href="../edusf/index.php" title="閩南文化碩士學位學程">閩南文化碩士學位學程</a></li>-->
+
+                                    <li><a href="../index.php?code=list&ids=2301" title="語言與跨文化碩士班">語言與跨文化碩士班</a></li>
+
+            </ul>
+
+        </li>                   
+
+        <li class="menu_main"><a href="../Leisure/index.php" title="管理學院">管理學院</a>
+
+            <ul style="width:22em;">
+
+                <li><a href="../Leisure/index.php" title="管理學院">管理學院</a></li>
+
+                <li><a href="http://120.125.111.3/" title="運動與休閒學系(學士班、碩士班、進修部)">運動與休閒學系(學士班、碩士班、進修部)</a></li>
+
+                <li><a href="http://eduba.nqu.edu.tw/" title="企業管理學系(學士班、碩士班、進修部)">企業管理學系(學士班、碩士班、進修部)</a></li>             
+
+                                    <!--<li><a href="https://www.nqu.edu.tw/eduba/index.php" title="企業管理學系(學士班、碩士班、進修部)">企業管理學系(學士班、碩士班、進修部)</a></li>-->
+
+                <li><a href="http://tourism.nqu.edu.tw/" title="觀光管理學系(學士班、碩士班、進修部)">觀光管理學系(學士班、碩士班、進修部)</a></li>
+
+                <!--<li><a href="http://203.72.226.152/" title="觀光管理學系(學士班、碩士班、進修部)">觀光管理學系(學士班、碩士班、進修部)</a></li>-->
+
+                <li><a href="https://iem.nqu.edu.tw/eduieem/" title="工業工程與管理學系(學士班)">工業工程與管理學系(學士班)</a></li>
+
+                <!--<li><a href="../eduieem/index.php" title="工業工程與管理學系(學士班)">工業工程與管理學系(學士班)</a></li>-->
+
+                <li><a href="../Leisure/index.php?code=list&ids=2593" title="管理學院事業經營研究所(碩士在職專班)">管理學院事業經營研究所(碩士在職專班)</a></li>
+
+                                   <!--<li><a href="https://www.nqu.edu.tw/Leisure/index.php?code=list&ids=1689">管理學院事業經營研究所(碩士在職專班)</a></li>
+
+                <li><a href="https://www.nqu.edu.tw/eduba/index.php?code=list&ids=2323">管理學院創新事業與島嶼經營碩士班</a></li>-->
+
+            </ul>
+
+        </li>                   
+
+        <li class="menu_main"><a href="../Science/index.php" title="理工學院">理工學院</a>
+
+            <ul style="width:20em;">
+
+                <li><a href="../Science/index.php" title="理工學院">理工學院</a></li>
+
+                <li><a href="../eduee/index.php" title="電子工程學系(學士班、碩士班)">電子工程學系(學士班、碩士班)</a></li>
+
+                <li><a href="../edufoodscience/index.php" title="食品科學系(學士班、碩士班)">食品科學系(學士班、碩士班)</a></li>
+
+                                   <!--<li><a href="https://www.nqu.edu.tw/edufoodeng/index.php" title="食品科學系(學士班、碩士班)">食品科學系(學士班、碩士班)</a></li>-->
+
+                <li><a href="http://cem.nqu.edu.tw/" title="土木與工程管理學系(學士班、碩士班)">土木與工程管理學系(學士班、碩士班)</a></li>
+
+                                   <!--<li><a href="http://www3.nqu.edu.tw/cem/" title="土木與工程管理學系(學士班、碩士班)">土木與工程管理學系(學士班、碩士班)</a></li>-->
+
+                <li><a href="../educsie/index.php" title="資訊工程學系(學士班)">資訊工程學系(學士班)</a></li>
+
+            </ul>
+
+        </li>                   
+
+        <li class="menu_main"><a href="../health_science" title="健康護理學院">健康護理學院</a> <!--<a href="https://www.nqu.edu.tw/health_science/index.php?code=list&ids=1820" title="健康護理學院">健康護理學院</a>-->
+
+            <ul style="width:18em;">
+
+                <li><a href="../health_science" title="健康護理學院">健康護理學院</a></li>
+
+                <li><a href="../nursing" title="護理學系(學士班)">護理學系(學士班)</a></li>
+
+                <li><a href="../longtermcare" title="長期照護學系(學士班、碩士班)">長期照護學系(學士班、碩士班)</a></li>
+
+                <li><a href="../social_work" title="社會工作學系(學士班、進修部)">社會工作學系(學士班、進修部)</a></li>
+
+            </ul>
+
+        </li>
+
+        <li class="menu_main"><a href="http://liberal.nqu.edu.tw/" title="通識教育中心">通識教育中心</a></li>
+
+        <!--<li class="menu_main"><a href="http://120.125.96.151/" title="通識教育中心">通識教育中心</a></li>-->
+
+        <li class="menu_main"><a href="index.php?code=list&ids=5" title="校園資訊系統">校園資訊系統</a>
+
+            <ul style="width:16em;">
+
+                <li><a href="index.php?code=list&ids=1320" title="校務資訊系統">校務資訊系統</a></li>
+
+                <li><a href="http://mail.nqu.edu.tw/" target="_blank" title="電子郵件系統(教職員)">電子郵件系統(教職員)</a></li>
+
+                                    <li><a href="https://mail.google.com/a/email.nqu.edu.tw" target="_blank" title="Google 雲端應用服務(教職員)">Google 雲端應用服務(教職員)</a></li>     
+
+                                    <!--<li><a href="http://www4.nqu.edu.tw/google_app/">Google 雲端應用服務(教職員)</a></li>-->
+
+                <li><a href="http://stu.nqu.edu.tw/" target="_blank" title="學生郵件系統 (網路認證)">學生郵件系統 (網路認證)</a></li>
+
+                <!--<li><a href="https://mail.google.com/a/student.nqu.edu.tw">學生Gmail (103學年度新生)</a></li>-->
+
+                                    <li><a href="https://www.nqu.edu.tw/orgcc/index.php?code=list&flag=detail&ids=190&article_id=24753" title="學生Gmail (103學年度新生)">學生Gmail (103學年度新生)</a></li>
+
+                <li><a href="http://lib.nqu.edu.tw/" target="_blank" title="圖書資訊系統">圖書資訊系統</a></li>
+
+                <!--<li><a href="http://vod.nqu.edu.tw/" target="_blank" title="影音資訊隨選系統(限校內用)">影音資訊隨選系統(限校內用)</a></li>-->
+
+                <li><a href="http://webitr.nqu.edu.tw:8080/WebITR/" target="_blank" title="人事差勤系統">人事差勤系統</a></li>
+
+                <li><a href="http://ecampus.nqu.edu.tw/eCampus3P/Learn/" target="_blank" title="數位教學平台">數位教學平台</a></li>
+
+                                    <!--<li><a href="http://120.125.96.170/nqu/UserOn.aspx" target="_blank" title="學生學習品質保證系統">學生學習品質保證系統</a></li>
+
+                <li><a href="http://ep.nqu.edu.tw/">學生學習歷程平台</a></li>-->
+
+                <li><a href="http://edoc.nqu.edu.tw/yamiiflow" target="_blank" title="電子公文系統">電子公文系統</a></li>
+
+                <li><a href="http://act.nqu.edu.tw/APSWIS_Q/Login_L_Q.asp" target="_blank" title="網路請購系統">網路請購系統</a></li>
+
+                <li><a href="http://10.10.10.180/" target="_blank" title="財產管理系統(限校內用)">財產管理系統(限校內用)</a></li>
+
+                <li><a href="https://hedb.moe.edu.tw/" target="_blank" title="大學校院校務資料庫">大學校院校務資料庫</a></li>
+
+                <li><a href="http://140.122.249.222/AIMHtestIndex" target="_blank" title="大專校院學生心理健康關懷量表">大專校院學生心理健康關懷量表</a></li>
+
+                <!--<li><a href="http://www.tests.com.tw/uhsyf.asp" target="_blank" title="心理測驗線上施測系統">心理測驗線上施測系統</a></li>-->
+
+                                    <li><a href="https://arms.nqu.edu.tw:9925/eHR/" target="_blank" title="學術研究成果管理系統">學術研究成果管理系統</a></li>
+
+                                    <!--<li><a href="http://trc1.nqu.edu.tw/" target="_blank" title="金大計畫系統(含教學助理申請)">金大計畫系統(含教學助理申請)</a></li>-->
+
+                                    <li><a href="http://alumnus.nqu.edu.tw/loginbox.php?data=" target="_blank" title="校友資訊服務系統">校友資訊服務系統</a></li>
+
+            </ul>
+
+        </li>
+
+        <li class="menu_main"><a href="index.php?code=list&ids=9" title="招生訊息">招生訊息</a>
+
+            <ul style="width:12em;">
+
+                <li><a href="index.php?code=list&ids=2403" title="招生專區">招生專區</a></li>
+
+                <li><a href="index.php?code=list&ids=2641" title="新生入學獎勵措施">新生入學獎勵措施</a></li>
+
+                <li><a href="https://www.nqu.edu.tw/orgnight/index.php?code=list&ids=48" title="進修部招生訊息">進修部招生訊息</a></li>
+
+                <li><a href="https://www.nqu.edu.tw/rd/index.php?code=list&ids=2151" title="招收大陸地區學生專區">招收大陸地區學生專區</a></li>
+
+                <!--<li><a href="index.php?code=list&ids=2370">103學年度陸生績優入學獎助學金獎勵措施</a></li>-->                            
+
+                <li><a href="https://www.nqu.edu.tw/rd/index.php?code=list&ids=2153" title="僑生招生訊息">僑生招生訊息</a></li>                            
+
+                <li><a href="https://www.nqu.edu.tw/rd/index.php?code=list&ids=2154" title="外國學生招生訊息">外國學生招生訊息</a></li>                            
+
+                <li><a href="https://www.nqu.edu.tw/orgstudent/index.php?code=list&ids=1364" title="學生宿舍資訊">學生宿舍資訊</a></li>
+
+                <li><a href="index.php?code=list&ids=2405" title="招生Q&A">招生Q&A </a></li>
+
+            </ul>
+
+        </li>
+
+        <li class="menu_main"><a href="index.php?code=list&ids=1057" title="學雜費資訊">學雜費資訊</a>
+
+            <ul style="width:12em;">
+
+                <li><a href="https://www.nqu.edu.tw/cht/index.php?code=list&ids=1060" title="收費標準表">收費標準表</a></li>
+
+                <li><a href="https://www.nqu.edu.tw/orgnight/index.php?code=list&ids=2266" title="進修部學費收費標準">進修部學費收費標準</a></li>
+
+                <li><a href="index.php?code=list&ids=1763" title="學生減免學雜費">學生減免學雜費</a></li>
+
+                <li><a href="index.php?code=list&ids=1061" title="退費標準法">退費標準法</a></li>
+
+                <li><a href="https://www.nqu.edu.tw/orgstudent/index.php?code=list&flag=detail&ids=796&article_id=2091" title="就學獎補助辦法">就學獎補助辦法</a></li>
+
+                <li><a href="https://www.nqu.edu.tw/orgstudent/index.php?code=list&flag=detail&ids=796&article_id=2091" title="就學獎補助辦法簡介">就學獎補助辦法簡介</a></li>
+
+                <li><a href="index.php?code=list&ids=1065" title="調整學雜費相關會議">調整學雜費相關會議</a></li>
+
+                <li><a href="http://act.nqu.edu.tw/webppr/EQPAPER.HTM" title="各年度預/決算書查詢">各年度預/決算書查詢</a></li>
+
+            </ul>
+
+        </li>
+
+        <li class="menu_main"><a href="https://www.nqu.edu.tw/cht/index.php?code=list&ids=2262" title="校務財務資訊公開">校務財務資訊公開</a></li>
+
+        <li class="menu_main"><a href="https://www.nqu.edu.tw/orglibrary/index.php" title="圖書館">圖書館</a></li>
+
+        <li class="menu_main"><a href="index.php?code=list&flag=detail&ids=11" title="相關連結">相關連結</a></li>
+
+                  <!--<li class="menu_main"><a href="http://hero.nqu.edu.tw" title="特色大學計畫">特色大學計畫</a></li>-->
+
+    </ul>    
+
+</div>
+
+<style type="text/css">
+
+body,div,ul,li,a,img{margin: 0;padding: 0;}
+
+            .slider{width: 988px;margin: 0px auto;position: relative;height: 330px;overflow: hidden;}
+
+            .slider li{list-style: none;position: absolute;left: 0;top: 0;}
+
+            .slider img{border: none;height: 330px;width: 988px;}
+
+            .slider .slider_btn{position: absolute;height: 25px;width: 100%;bottom: 0;
+
+              text-align: left;margin: 308px 0px 0 0px;padding-left: 10px;left: 0%;}
+
+            .slider .slider_btn span{display: inline-block;width: 15px;height: 15px;line-height: 15px;text-align: center;margin-right: 5px;cursor: pointer;background: #999;color: #FFFFEF;border-radius: 15px;font-size: 12px;}
+
+            .slider .slider_btn .cur{background: #E4393C;}</style>
+
+<div class="slider">
+
+      <ul class="slider_pic">
+
+            
+
+            <li><a href="https://www.nqu.edu.tw/orgstudent/index.php?code=list&flag=detail&ids=810&article_id=68017" title="畢業專區"><img src="../upload/cht/article/7a4940399e34ce3669cd7868616f5e2d.png" alt="畢業專區" /></a></li>
+
+            
+
+            <li><a href="https://www.chinatimes.com/realtimenews/20210506005810-260421?chdtv" title="金大K.Star第一屆星光幫登場 金門大舞台燃燒青年熱情活力"><img src="../upload/cht/article/cc7718a74029bda9361c1abee3e12d12.png" alt="金大K.Star第一屆星光幫登場 金門大舞台燃燒青年熱情活力" /></a></li>
+
+            
+
+            <li><a href="https://www.kmdn.gov.tw/1117/1271/1272/331370" title="金大邀簡禎富開講 探討工業3.5 "><img src="../upload/cht/article/acdd4e9fa13909aff387a8aee1f5a8ab.png" alt="金大邀簡禎富開講 探討工業3.5 " /></a></li>
+
+            
+
+            <li><a href="https://www.kmdn.gov.tw/1117/1271/1272/330920" title="金大建築系學生「建GO」展 創意十足"><img src="../upload/cht/article/b5fc1f1a8b8f8e186c2ffb1a37d9b509.jpg" alt="金大建築系學生「建GO」展 創意十足" /></a></li>
+
+            
+
+            <li><a href="https://www.kmdn.gov.tw/1117/1271/1272/330809" title="大學申請入學 離島視訊面試考生反應良好"><img src="../upload/cht/article/51fe916eae3db4e07b388917eb67d2b5.jpg" alt="大學申請入學 離島視訊面試考生反應良好" /></a></li>
+
+            
+
+            <li><a href="https://www.kmdn.gov.tw/1117/1271/1272/329701/" title="金大邀吳啟騰帶領學生探索自然生態"><img src="../upload/cht/article/bb3b4767d0a03b26795a29634e356ce0.png" alt="金大邀吳啟騰帶領學生探索自然生態" /></a></li>
+
+            
+
+            <li><a href="https://udn.com/news/story/6928/5255219" title="金大校園櫻花盛開 成為春遊的熱門景點"><img src="../upload/cht/article/ab8d8bc1a8691e298ce6034438488c0b.png" alt="金大校園櫻花盛開 成為春遊的熱門景點" /></a></li>
+
+            
+
+            <li><a href="https://www.kmdn.gov.tw/1117/1271/1272/327649" title="金大師生寒冬中挽袖捐血 心裡暖呼呼"><img src="../upload/cht/article/bb0b900c514642342a657836c4fb9f68.png" alt="金大師生寒冬中挽袖捐血 心裡暖呼呼" /></a></li>
+
+            
+
+            <li><a href="https://www.kmdn.gov.tw/1117/1271/1272/327551" title="亞洲機器人運動競技 金大電子系4金冠全國"><img src="../upload/cht/article/15d77b5d98ee9d6813999a4f2caa0eca.png" alt="亞洲機器人運動競技 金大電子系4金冠全國" /></a></li>
+
+            
+
+            <li><a href="https://www.chinatimes.com/realtimenews/20210108004149-264225?chdtv" title="高粱酒糟變活性碳 金大團隊全國競賽獲獎"><img src="../upload/cht/article/5b8ccef76ab8107efc32f29c6e6adf04.png" alt="高粱酒糟變活性碳 金大團隊全國競賽獲獎" /></a></li>
+
+            
+
+      </ul>
+
+      <div class="slider_btn" style="padding-right: 20px">
+
+            <span class="cur">1</span> <span>2</span> <span>3</span> <span>4</span> <span>5</span> <span>6</span> <span>7</span> <span>8</span> <span>9</span> <span>10</span> </div>
+
+</div>
+
+      <!--<div class="slider_btn" style="padding-right: 20px">
+
+            <span class="cur">1</span> <span>2</span> <span>3</span> <span>4</span> <span>5</span> <span>6</span> <span>7</span> <span>8</span></div>
+
+</div>-->
+
+<script>
+
+       
+
+       function slider(s){this.init.apply(this,arguments)}
+
+       slider.prototype={
+
+            init:function(s){
+
+               this.o=this.getByClass(s)[0];
+
+               this.l=this.getByClass('slider_pic',this.o)[0].getElementsByTagName('li');
+
+               this.b=this.getByClass('slider_btn',this.o)[0];
+
+               this.bSpan=this.b.getElementsByTagName('span');
+
+               this.len=this.l.length;
+
+               this.iNum=0;
+
+               this.status();//初始化状态
+
+               this.autoPlay();//自动播放
+
+               this.clickPlay();//点击按钮播放
+
+               this.suspensionPause();//鼠标悬浮暂停
+
+            },
+
+             clickPlay:function()
+
+             {
+
+                  var This=this;
+
+                  for(var i=0;i<this.len;i++)
+
+                  {    
+
+                        this.bSpan[i].index=i;
+
+                        this.bSpan[i].onclick=function()
+
+                        {
+
+                              clearInterval(This.timer);
+
+                              var index=this.index;
+
+                              This.iNum=(index+1) == This.len ? 0 : (index+1)  ;
+
+                              var o=This.l[index];
+
+                              This.setLayout(this,o);
+
+                              This.autoPlay();
+
+                        }
+
+                  }
+
+             },
+
+             suspensionPause:function()
+
+             {  
+
+                  var This=this;
+
+                  for(var i=0;i<this.len;i++)
+
+                  {
+
+                        this.l[i].onmouseover=function()
+
+                        {
+
+                              clearInterval(This.timer);
+
+                        }
+
+                        this.l[i].onmouseout=function()
+
+                        {
+
+                              This.autoPlay();
+
+                        }
+
+                  }
+
+             },
+
+             setLayout:function(o1,o2){
+
+                  for(var j=0;j<this.len;j++)
+
+                  {
+
+                        if(this.bSpan[j]!=o1)
+
+                        {
+
+                              this.bSpan[j].className='';
+
+                              this.l[j].style.zIndex=j;
+
+                        }
+
+                  }
+
+                  o2.style.zIndex=this.len;
+
+                  o2.style.left='600px';
+
+                  this.doMove(o2,0);
+
+                  o1.className='cur';
+
+             },
+
+             status:function(){
+
+                  for(var i=this.len;i--;i>0)
+
+                  {
+
+                        this.l[i].style.zIndex=i;
+
+                        this.bSpan[i].className='';
+
+                  }
+
+                  this.l[0].style.zIndex=this.len;
+
+                  this.bSpan[0].className='cur';
+
+                  this.b.style.zIndex=(this.len+1);
+
+             },
+
+             autoPlay:function(){
+
+                  this.timer=null;
+
+                  var This=this;
+
+                  this.timer=setInterval(function(){
+
+                        This.setLayout(This.bSpan[This.iNum],This.l[This.iNum])
+
+                        This.iNum++;
+
+                        if(This.iNum==This.len)
+
+                        {
+
+                              This.iNum=0;
+
+                        }
+
+                  },4500)
+
+             },
+
+             getByClass:function(s,p){
+
+                  var reg=new RegExp('(\\b)'+s+'(\\b)');
+
+                  var aResult=[];
+
+                  var aElement=(p || document).getElementsByTagName('*');
+
+                  for(var i=0;i<aElement.length;i++)
+
+                  {
+
+                        reg.test(aElement[i].className) && aResult.push(aElement[i])
+
+                  }
+
+                  return aResult;
+
+             },
+
+             doMove:function(o,t)
+
+             {
+
+                  clearInterval(o.timer);
+
+                  o.timer=setInterval(function(){
+
+                        var iS=(t-o.offsetLeft)/8;
+
+                        iS=iS>0?Math.ceil(iS):Math.floor(iS);
+
+
+
+                        if(o.offsetLeft==t)
+
+                        {
+
+                              clearInterval(o.timer);
+
+                        }
+
+                        else
+
+                        {
+
+                              o.style.left=o.offsetLeft+iS+"px";
+
+                        }
+
+
+
+                  },30)
+
+             }
+
+
+
+       }
+
+       var slide=new slider('slider');
+
+      </script>
+
+    <!-- <div><img alt="國立金門大學" src="https://www.nqu.edu.tw/upload/cht/attachment/985.235.01.jpg" style="border-top: 0px solid; height: 235px; border-right: 0px solid; width: 988px; border-bottom: 0px solid; border-left: 0px solid" / title="國立金門大學"></div> -->
+
+         <!--<div><a href="https://www.nqu.edu.tw/upload/cht/files/1041127.pdf"><img alt="教育部特色大學評選 金門大學上榜" src="https://www.nqu.edu.tw/upload/cht/attachment/985.235.02.jpg" style="border-top: 0px solid; height: 235px; border-right: 0px solid; width: 988px; border-bottom: 0px solid; border-left: 0px solid" /></a></div>-->
+
+         <!--<div><img alt="國立金門大學" src="https://www.nqu.edu.tw/upload/cht/attachment/4b6245da866789113b49601bcef051c9.jpg" style="border-top: 0px solid; height: 198px; border-right: 0px solid; width: 985px; border-bottom: 0px solid; border-left: 0px solid" /></div>-->
+
+         
+
+    <div><style type="text/css">
+
+<!--
+
+table,td,th, {
+
+	font-size: smal1;
+
+         letter-spacing:0px;
+
+         line-height:1.5em;
+
+}
+
+--></style>
+
+
+
+<table>
+
+<tr>
+
+           <td height="30">
+
+                <style type="text/css">
+
+.run A:link { /* 未瀏覽的連結 */
+
+        font-size:12px;
+
+        text-decoration:none;
+
+        color : #0078ff;
+
+ }
+
+.run A:visited { /* 已瀏覽的連結 */
+
+        font-size:12px;
+
+        text-decoration:none;
+
+        color : #0078ff;
+
+}
+
+.run A:hover { /* 移動至連結時 */
+
+        font-size:12px;
+
+        color : #0078ff;
+
+        text-decoration:underline;
+
+ }
+
+.run A:focus { /* 聚焦時 */
+
+        font-size:12px;
+
+        color : #0078ff;
+
+        text-decoration:underline;
+
+}
+
+.run A:active { /* 瀏覽連結時 */
+
+        font-size:12px;
+
+        text-decoration:none;
+
+         color : #0078ff;
+
+}
+
+.run{
+
+	 font-size:12px;
+
+	 color : #0078ff;
+
+	}
+
+/*#marquee { height:46px; background-image: url(../upload/cht/attachment/566fb0e2ca3796dac5aa27d2aca1dc50.jpg); background-repeat:repeat-x;}*/
+
+/*.marquee_new { background-image: url(../upload/cht/attachment/b9ceae5b2c0afd35288138df192bb542.jpg); background-position:left top; background-repeat:no-repeat; height:46px; padding:12px 0px 0px 40px; }		*/
+
+</style>
+
+<div id="marquee">
+
+	<div id="data" class="marquee_new run"><marquee scrollamount="6" onmouseout="this.start()" onmouseover="this.stop()"><div>．<a href="https://www.nqu.edu.tw/cht/index.php?code=list&flag=detail&ids=12&article_id=66994" alt="【進修部】110學年度進修學士班甄試入學開始報名">【進修部】110學年度進修學士班甄試入學開始報名</a>   ．<a href="https://www.nqu.edu.tw/orgnight/index.php?code=list&flag=detail&ids=51&article_id=66995" alt="110學年度學士後多元專長培力方案招生開始報名囉">110學年度學士後多元專長培力方案招生開始報名囉</a>   ．<a href="https://www.nqu.edu.tw/cht/index.php?code=list&flag=detail&ids=12&article_id=66087" alt="【日間部】109學年度第2學期各項獎助學金申請">【日間部】109學年度第2學期各項獎助學金申請</a>   </div></marquee></div>
+
+</div>  
+
+           </td>
+
+		 </tr>
+
+</table>
+
+<table border="0" cellspacing="0" cellpadding="0" width="10%">
+
+    <tbody>
+
+        <tr>
+
+            <td valign="top" align="left"><table border="0" cellpadding="0" cellspacing="0" style="width: 1000px" width="10%">
+
+	<tbody>
+
+		<tr>
+
+			<td align="left" valign="top">
+
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+				<tbody>
+
+					<tr>
+
+						<td><table align="left" border="0" cellpadding="0" cellspacing="0" style="width: 990px" width="10%">
+
+	<tbody>
+
+		<tr>
+
+			<td align="left" valign="top"><img alt="訂閱電子報" src="../upload/webstyle_default/Image/seach_00.jpg" style="height: 27px; width: 330px" title="訂閱電子報" /></td>
+
+			<td background="../upload" valign="top"><form action="./index.php?act=article&code=search" method="post" name="frm"><input type="hidden" name="csrf" id="csrf" value="f8ebaa0aaf7e4620a98d278f6aad43b2">
+
+
+
+<table cellspacing="0" cellpadding="0" width="100%" border="0">
+
+    <tbody>
+
+        
+
+            <tr>
+
+                <td valign="top" align="left">
+
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+                    <tr>
+
+                      <td width="1%" align="left" valign="middle"><a tabindex="3" href="index.php?act=article_class"><img alt="" border="0" src="../upload/webstyle_default/Image/seach_01.jpg" /></a></td>
+
+                      <td width="97%" align="left" valign="middle" style="padding-left:2px; padding-top:3px"><input id="keyword" onFocus="if (this.value=='請輸入欲檢索之字串') {this.value='';}" accesskey="S" tabindex="3" size="20" name="keyword" value="請輸入欲檢索之字串" /></td>
+
+                      <td width="1%" align="left" valign="middle"><label for="keyword"><input tabindex="3" type="image" alt="搜尋" src="../upload/webstyle_default/Image/seach_03.jpg" name="action" /></label></td>
+
+                    </tr>
+
+                  </table></td>
+
+            </tr>
+
+        
+
+    
+
+</table>
+
+</form></td>
+
+			<td align="left" valign="top"><a href="index.php?code=list&ids=987" title="未來學生"><img alt="未來學生" border="0" src="../upload/webstyle_default/Image/seach_04.jpg" /></a></td>
+
+			<td align="left" valign="top"><a href="index.php?code=list&ids=988" title="在校生"><img alt="在校生" border="0" src="../upload/webstyle_default/Image/seach_05.jpg" /></a></td>
+
+			<td align="left" valign="top"><a href="index.php?code=list&ids=989" title="教職員"><img alt="教職員" border="0" src="../upload/webstyle_default/Image/seach_06.jpg" /></a></td>
+
+			<td align="left" valign="top"><a href="index.php?code=list&ids=990" title="校友"><img alt="校友" border="0" src="../upload/webstyle_default/Image/seach_07.jpg" /></a></td>
+
+			<td align="left" valign="top"><a href="index.php?code=list&ids=991" title="貴賓訪客"><img alt="貴賓訪客" border="0" src="../upload/webstyle_default/Image/seach_08.jpg" /></a></td>
+
+		</tr>
+
+	</tbody>
+
+</table>
+
+</td>
+
+					</tr>
+
+					<tr>
+
+						<td> </td>
+
+					</tr>
+
+					<tr>
+
+						<td><table align="left" border="0" cellpadding="0" cellspacing="0" style="width: 990px" width="10%">
+
+	<tbody>
+
+		<tr>
+
+			<td align="left" valign="top">
+
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+				<tbody>
+
+					<tr>
+
+						<td align="left" valign="top"><img alt="校內公佈欄" src="../upload/webstyle_default/Image/a_01.jpg" /></td>
+
+						<td align="left" valign="top"><img alt="" src="../upload/webstyle_default/Image/a_05.jpg" /></td>
+
+						<td align="left" valign="top"><a href="index.php?code=list&ids=12" title="More更多消息"><img alt="More更多消息" border="0" src="../upload/webstyle_default/Image/b_02.jpg" /></a></td>
+
+						<td align="left" valign="top"><a href="index.php?code=list&ids=28" title="RSS訂閱說明"><img alt="RSS訂閱說明" border="0" src="../upload/webstyle_default/Image/a_04.jpg" /></a></td>
+
+					</tr>
+
+				</tbody>
+
+			</table>
+
+			</td>
+
+		</tr>
+
+		<tr>
+
+			<td align="left" valign="top"><img alt="" src="../upload/webstyle_default/Image/b_03.jpg" style="height: 1px; width: 985px" /></td>
+
+		</tr>
+
+		<tr>
+
+			<td align="left" valign="top">
+
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+				<tbody>
+
+					<tr>
+
+                                                     <td align="left" style="padding-top: 18px; padding-left: 24px" valign="top" width="5%"><a href="https://www.nqu.edu.tw/cht/index.php?code=list&ids=2377"><img alt="新生專區" src="https://www.nqu.edu.tw/js/upload/ckfinder/images/1100225.png" style="border-top: 0px solid; height: 245px; border-right: 0px solid; width: 181px; border-bottom: 0px solid; border-left: 0px solid" title="新生專區" /></a></td>	
+
+                                                     <!--<td align="left" style="padding-top: 18px; padding-left: 24px" valign="top" width="5%"><a href="https://www.nqu.edu.tw/cht/index.php?code=list&ids=3205"><img alt="因應新冠肺炎(COVID-19)防疫專區區" src="https://www.nqu.edu.tw/js/upload/ckfinder/images/p1090302.jpg" style="border-top: 0px solid; height: 245px; border-right: 0px solid; width: 181px; border-bottom: 0px solid; border-left: 0px solid" title="因應新冠肺炎(COVID-19)防疫專區" /></a></td>
+
+                                                     <td align="left" style="padding-top: 18px; padding-left: 24px" valign="top" width="5%"><a href="https://www.nqu.edu.tw/cht/index.php?code=list&ids=2641" target="_blank"><img alt="金大 助你點石成金" src="https://www.nqu.edu.tw/js/upload/ckfinder/images/107111301.jpg" style="border-top: 0px solid; height: 245px; border-right: 0px solid; width: 181px; border-bottom: 0px solid; border-left: 0px solid" title="金大 助你點石成金" /></a></td>-->
+
+						<td align="left" style="padding-top: 18px; padding-left: 6px" valign="top" width="95%">
+
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+							<tbody>
+
+								<tr>
+
+									<td align="left" valign="top">
+
+									<table align="center" border="0" cellpadding="2" cellspacing="3" id="new02" width="100%">
+
+										<tbody>
+
+											<tr>
+
+												<td align="center" valign="middle" width="3%"><img alt="*" src="../upload/webstyle_default/Image/icon_01.jpg" /></td>
+
+												<td align="left" nowrap="nowrap" style="width: 9%" valign="middle"><span style="font-size: 16px">110-06-17</span></td>
+
+												<td align="left" style="width: 65%" valign="middle"><span style="font-size: 16px"><a href="https://www.nqu.edu.tw/cht/index.php?code=list&flag=detail&ids=12&article_id=66520" >函轉內政部役政署檢送「戶役政管家App」線上訊息主動通知</a></span></td>
+
+												<td align="left" style="width: 15%" valign="middle"><span style="font-size: 16px">軍訓室</span></td>
+
+												<td align="left" style="width: 7%" valign="middle"><span style="font-size: 16px">1250</span></td>
+
+											</tr>
+
+										</tbody>
+
+									</table>
+
+									</td>
+
+								</tr>
+
+								<tr>
+
+									<td align="left" valign="top"><img alt="" src="../upload/webstyle_default/Image/line_01.jpg" style="height: 2px; width: 770px" /></td>
+
+								</tr>
+
+							</tbody>
+
+						</table>
+
+						
+
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+							<tbody>
+
+								<tr>
+
+									<td align="left" valign="top">
+
+									<table align="center" border="0" cellpadding="2" cellspacing="3" id="new02" width="100%">
+
+										<tbody>
+
+											<tr>
+
+												<td align="center" valign="middle" width="3%"><img alt="*" src="../upload/webstyle_default/Image/icon_01.jpg" /></td>
+
+												<td align="left" nowrap="nowrap" style="width: 9%" valign="middle"><span style="font-size: 16px">110-06-17</span></td>
+
+												<td align="left" style="width: 65%" valign="middle"><span style="font-size: 16px"><a href="https://www.nqu.edu.tw/cht/index.php?code=list&flag=detail&ids=12&article_id=65376" >【軍訓室兵役宣導】自（110）年1月1日起民國91年次役...</a></span></td>
+
+												<td align="left" style="width: 15%" valign="middle"><span style="font-size: 16px">軍訓室</span></td>
+
+												<td align="left" style="width: 7%" valign="middle"><span style="font-size: 16px">2845</span></td>
+
+											</tr>
+
+										</tbody>
+
+									</table>
+
+									</td>
+
+								</tr>
+
+								<tr>
+
+									<td align="left" valign="top"><img alt="" src="../upload/webstyle_default/Image/line_01.jpg" style="height: 2px; width: 770px" /></td>
+
+								</tr>
+
+							</tbody>
+
+						</table>
+
+						
+
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+							<tbody>
+
+								<tr>
+
+									<td align="left" valign="top">
+
+									<table align="center" border="0" cellpadding="2" cellspacing="3" id="new02" width="100%">
+
+										<tbody>
+
+											<tr>
+
+												<td align="center" valign="middle" width="3%"><img alt="*" src="../upload/webstyle_default/Image/icon_01.jpg" /></td>
+
+												<td align="left" nowrap="nowrap" style="width: 9%" valign="middle"><span style="font-size: 16px">110-06-17</span></td>
+
+												<td align="left" style="width: 65%" valign="middle"><span style="font-size: 16px"><a href="https://www.nqu.edu.tw/cht/index.php?code=list&flag=detail&ids=12&article_id=67280" >【軍訓室公告】函轉內政部辦理110年役男接受常備兵役軍事...</a></span></td>
+
+												<td align="left" style="width: 15%" valign="middle"><span style="font-size: 16px">軍訓室</span></td>
+
+												<td align="left" style="width: 7%" valign="middle"><span style="font-size: 16px">1368</span></td>
+
+											</tr>
+
+										</tbody>
+
+									</table>
+
+									</td>
+
+								</tr>
+
+								<tr>
+
+									<td align="left" valign="top"><img alt="" src="../upload/webstyle_default/Image/line_01.jpg" style="height: 2px; width: 770px" /></td>
+
+								</tr>
+
+							</tbody>
+
+						</table>
+
+						
+
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+							<tbody>
+
+								<tr>
+
+									<td align="left" valign="top">
+
+									<table align="center" border="0" cellpadding="2" cellspacing="3" id="new02" width="100%">
+
+										<tbody>
+
+											<tr>
+
+												<td align="center" valign="middle" width="3%"><img alt="*" src="../upload/webstyle_default/Image/icon_01.jpg" /></td>
+
+												<td align="left" nowrap="nowrap" style="width: 9%" valign="middle"><span style="font-size: 16px">110-06-17</span></td>
+
+												<td align="left" style="width: 65%" valign="middle"><span style="font-size: 16px"><a href="https://www.nqu.edu.tw/orgstudent/index.php?code=list&flag=detail&ids=797&article_id=2117" alt="【日間部】1101學雜費減免申請日期延長至6月18日(五)止">【日間部】1101學雜費減免申請日期延長至6月18日(五</a></span></td>
+
+												<td align="left" style="width: 15%" valign="middle"><span style="font-size: 16px">學生事務處</span></td>
+
+												<td align="left" style="width: 7%" valign="middle"><span style="font-size: 16px">5325</span></td>
+
+											</tr>
+
+										</tbody>
+
+									</table>
+
+									</td>
+
+								</tr>
+
+								<tr>
+
+									<td align="left" valign="top"><img alt="" src="../upload/webstyle_default/Image/line_01.jpg" style="height: 2px; width: 770px" /></td>
+
+								</tr>
+
+							</tbody>
+
+						</table>
+
+						
+
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+							<tbody>
+
+								<tr>
+
+									<td align="left" valign="top">
+
+									<table align="center" border="0" cellpadding="2" cellspacing="3" id="new02" width="100%">
+
+										<tbody>
+
+											<tr>
+
+												<td align="center" valign="middle" width="3%"><img alt="*" src="../upload/webstyle_default/Image/icon_01.jpg" /></td>
+
+												<td align="left" nowrap="nowrap" style="width: 9%" valign="middle"><span style="font-size: 16px">110-06-17</span></td>
+
+												<td align="left" style="width: 65%" valign="middle"><span style="font-size: 16px"><a href="https://www.nqu.edu.tw/cht/index.php?code=list&flag=detail&ids=12&article_id=66994" >【進修部】110學年度進修學士班甄試入學開始報名</a></span></td>
+
+												<td align="left" style="width: 15%" valign="middle"><span style="font-size: 16px">進修推廣部</span></td>
+
+												<td align="left" style="width: 7%" valign="middle"><span style="font-size: 16px">5381</span></td>
+
+											</tr>
+
+										</tbody>
+
+									</table>
+
+									</td>
+
+								</tr>
+
+								<tr>
+
+									<td align="left" valign="top"><img alt="" src="../upload/webstyle_default/Image/line_01.jpg" style="height: 2px; width: 770px" /></td>
+
+								</tr>
+
+							</tbody>
+
+						</table>
+
+						
+
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+							<tbody>
+
+								<tr>
+
+									<td align="left" valign="top">
+
+									<table align="center" border="0" cellpadding="2" cellspacing="3" id="new02" width="100%">
+
+										<tbody>
+
+											<tr>
+
+												<td align="center" valign="middle" width="3%"><img alt="*" src="../upload/webstyle_default/Image/icon_01.jpg" /></td>
+
+												<td align="left" nowrap="nowrap" style="width: 9%" valign="middle"><span style="font-size: 16px">110-06-17</span></td>
+
+												<td align="left" style="width: 65%" valign="middle"><span style="font-size: 16px"><a href="https://www.nqu.edu.tw/cht/index.php?code=list&flag=detail&ids=12&article_id=66995" >【進修部】110學年度學士後多元專長培力方案招生開始報名</a></span></td>
+
+												<td align="left" style="width: 15%" valign="middle"><span style="font-size: 16px">進修推廣部</span></td>
+
+												<td align="left" style="width: 7%" valign="middle"><span style="font-size: 16px">3145</span></td>
+
+											</tr>
+
+										</tbody>
+
+									</table>
+
+									</td>
+
+								</tr>
+
+								<tr>
+
+									<td align="left" valign="top"><img alt="" src="../upload/webstyle_default/Image/line_01.jpg" style="height: 2px; width: 770px" /></td>
+
+								</tr>
+
+							</tbody>
+
+						</table>
+
+						
+
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+							<tbody>
+
+								<tr>
+
+									<td align="left" valign="top">
+
+									<table align="center" border="0" cellpadding="2" cellspacing="3" id="new02" width="100%">
+
+										<tbody>
+
+											<tr>
+
+												<td align="center" valign="middle" width="3%"><img alt="*" src="../upload/webstyle_default/Image/icon_01.jpg" /></td>
+
+												<td align="left" nowrap="nowrap" style="width: 9%" valign="middle"><span style="font-size: 16px">110-06-17</span></td>
+
+												<td align="left" style="width: 65%" valign="middle"><span style="font-size: 16px"><a href="index.php?act=download&ids=67780&path=../upload/orgnight/attachment/be8d88f1d9b2553f00deed4fa667f1c5.pdf&title=%E3%80%90%E9%80%B2%E4%BF%AE%E9%83%A8%E3%80%91109%E5%AD%B8%E5%B9%B4%E5%BA%A6%E7%AC%AC2%E5%AD%B8%E6%9C%9F%E7%95%A2%E6%A5%AD%E9%9B%A2%E6%A0%A1%E5%85%AC%E5%91%8A%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85" target="article_search" alt="【進修部】109學年度第2學期畢業離校公告及注意事項">【進修部】109學年度第2學期畢業離校公告及注意事項...</a></span></td>
+
+												<td align="left" style="width: 15%" valign="middle"><span style="font-size: 16px">進修推廣部</span></td>
+
+												<td align="left" style="width: 7%" valign="middle"><span style="font-size: 16px">0</span></td>
+
+											</tr>
+
+										</tbody>
+
+									</table>
+
+									</td>
+
+								</tr>
+
+								<tr>
+
+									<td align="left" valign="top"><img alt="" src="../upload/webstyle_default/Image/line_01.jpg" style="height: 2px; width: 770px" /></td>
+
+								</tr>
+
+							</tbody>
+
+						</table>
+
+						
+
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+							<tbody>
+
+								<tr>
+
+									<td align="left" valign="top">
+
+									<table align="center" border="0" cellpadding="2" cellspacing="3" id="new02" width="100%">
+
+										<tbody>
+
+											<tr>
+
+												<td align="center" valign="middle" width="3%"><img alt="*" src="../upload/webstyle_default/Image/icon_01.jpg" /></td>
+
+												<td align="left" nowrap="nowrap" style="width: 9%" valign="middle"><span style="font-size: 16px">110-06-17</span></td>
+
+												<td align="left" style="width: 65%" valign="middle"><span style="font-size: 16px"><a href="https://www.nqu.edu.tw/cht/index.php?code=list&flag=detail&ids=12&article_id=67619" >【進修部】1101學雜費減免申請日期延長至6月18日(五</a></span></td>
+
+												<td align="left" style="width: 15%" valign="middle"><span style="font-size: 16px">進修推廣部</span></td>
+
+												<td align="left" style="width: 7%" valign="middle"><span style="font-size: 16px">1137</span></td>
+
+											</tr>
+
+										</tbody>
+
+									</table>
+
+									</td>
+
+								</tr>
+
+								<tr>
+
+									<td align="left" valign="top"><img alt="" src="../upload/webstyle_default/Image/line_01.jpg" style="height: 2px; width: 770px" /></td>
+
+								</tr>
+
+							</tbody>
+
+						</table>
+
+						</td>
+
+					</tr>
+
+				</tbody>
+
+			</table>
+
+			</td>
+
+		</tr>
+
+	</tbody>
+
+</table>
+
+</td>
+
+					</tr>
+
+					<tr>
+
+						<td style="padding-top: 8px"><table align="left" border="0" cellpadding="0" cellspacing="0" style="width: 990px" width="10%">
+
+	<tbody>
+
+		<tr>
+
+			<td align="left" valign="top">
+
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+				<tbody>
+
+					<tr>
+
+						<td align="left" valign="top"><img alt="校外新聞" src="../upload/webstyle_default/Image/b_01.jpg" /></td>
+
+						<td align="left" valign="top"><img alt="" src="../upload/webstyle_default/Image/a_05.jpg" /></td>
+
+						<td align="left" valign="top"><a href="index.php?code=list&ids=13" title="More更多消息"><img alt="More更多消息" border="0" src="../upload/webstyle_default/Image/b_02.jpg" /></a></td>
+
+						<td align="left" valign="top"><a href="index.php?code=list&ids=28" title="RSS訂閱說明"><img alt="RSS訂閱說明" border="0" src="../upload/webstyle_default/Image/a_04.jpg" /></a></td>
+
+					</tr>
+
+				</tbody>
+
+			</table>
+
+			</td>
+
+		</tr>
+
+		<tr>
+
+			<td align="left" valign="top"><img alt="" src="../upload/webstyle_default/Image/b_03.jpg" style="height: 1px; width: 985px" /></td>
+
+		</tr>
+
+		<tr>
+
+			<td align="left" valign="top">
+
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+				<tbody>
+
+					<tr>
+
+						<!--<td align="left" style="padding-top: 18px; padding-left: 24px" valign="top" width="5%"><a href="https://www.nqu.edu.tw/cht/index.php?code=list&ids=2641"><img alt="金大 助你點石成金" src="https://www.nqu.edu.tw/js/upload/ckfinder/images/107111301.jpg" style="border-top: 0px solid; height: 245px; border-right: 0px solid; width: 181px; border-bottom: 0px solid; border-left: 0px solid" title="金大 助你點石成金" /></a></td>
+
+                                                     <td align="left" style="padding-top: 18px; padding-left: 24px" valign="top" width="5%">
+
+						<div><a href="https://www.nqu.edu.tw/cht/index.php?code=list&ids=2377" target="_blank"><img alt="新生專區" src="https://www.nqu.edu.tw/js/upload/ckfinder/images/1090331.jpg" style="border-top: 0px solid; height: 245px; border-right: 0px solid; width: 181px; border-bottom: 0px solid; border-left: 0px solid" title="新生專區" /></a></div>
+
+						</td>-->
+
+                                                     <td align="left" style="padding-top: 18px; padding-left: 24px" valign="top" width="5%">
+
+						<div><a href="https://www.nqu.edu.tw/cht/index.php?code=list&ids=3205" target="_blank"><img alt="因應新冠肺炎(COVID-19)防疫專區" src="https://www.nqu.edu.tw/js/upload/ckfinder/images/p1090302.jpg" style="border-top: 0px solid; height: 245px; border-right: 0px solid; width: 181px; border-bottom: 0px solid; border-left: 0px solid" title="因應新冠肺炎(COVID-19)防疫專區" /></a></div>
+
+						</td>
+
+						<td align="left" style="padding-top: 18px; padding-left: 6px" valign="top" width="95%">
+
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+							<tbody>
+
+								<tr>
+
+									<td align="left" valign="top">
+
+									<table align="center" border="0" cellpadding="2" cellspacing="3" id="new02" width="100%">
+
+										<tbody>
+
+											<tr>
+
+												<td align="center" valign="middle" width="3%"><img alt="*" src="../upload/webstyle_default/Image/icon_01.jpg" /></td>
+
+												<td align="left" nowrap="nowrap" style="width: 9%" valign="middle"><span style="font-size: 16px">110-06-17</span></td>
+
+												<td align="left" style="width: 65%" valign="middle"><span style="font-size: 16px"><a href="https://www.nqu.edu.tw/cht/index.php?code=list&flag=detail&ids=13&article_id=68099" >◎110學年度第1學期日間部暑假轉學考開放報名◎</a></span></td>
+
+												<td align="left" style="width: 15%" valign="middle"><span style="font-size: 16px">教務處</span></td>
+
+												<td align="left" style="width: 7%" valign="middle"><span style="font-size: 16px">1234</span></td>
+
+											</tr>
+
+										</tbody>
+
+									</table>
+
+									</td>
+
+								</tr>
+
+								<tr>
+
+									<td align="left" valign="top"><img alt="" src="../upload/webstyle_default/Image/line_01.jpg" style="height: 2px; width: 770px" /></td>
+
+								</tr>
+
+							</tbody>
+
+						</table>
+
+						
+
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+							<tbody>
+
+								<tr>
+
+									<td align="left" valign="top">
+
+									<table align="center" border="0" cellpadding="2" cellspacing="3" id="new02" width="100%">
+
+										<tbody>
+
+											<tr>
+
+												<td align="center" valign="middle" width="3%"><img alt="*" src="../upload/webstyle_default/Image/icon_01.jpg" /></td>
+
+												<td align="left" nowrap="nowrap" style="width: 9%" valign="middle"><span style="font-size: 16px">110-06-17</span></td>
+
+												<td align="left" style="width: 65%" valign="middle"><span style="font-size: 16px"><a href="https://www.nqu.edu.tw/cht/index.php?code=list&flag=detail&ids=13&article_id=68211" >中華醫事科技大學舉辦「多元升等停看聽：教學實務與技術報告...</a></span></td>
+
+												<td align="left" style="width: 15%" valign="middle"><span style="font-size: 16px">人事室</span></td>
+
+												<td align="left" style="width: 7%" valign="middle"><span style="font-size: 16px">8</span></td>
+
+											</tr>
+
+										</tbody>
+
+									</table>
+
+									</td>
+
+								</tr>
+
+								<tr>
+
+									<td align="left" valign="top"><img alt="" src="../upload/webstyle_default/Image/line_01.jpg" style="height: 2px; width: 770px" /></td>
+
+								</tr>
+
+							</tbody>
+
+						</table>
+
+						
+
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+							<tbody>
+
+								<tr>
+
+									<td align="left" valign="top">
+
+									<table align="center" border="0" cellpadding="2" cellspacing="3" id="new02" width="100%">
+
+										<tbody>
+
+											<tr>
+
+												<td align="center" valign="middle" width="3%"><img alt="*" src="../upload/webstyle_default/Image/icon_01.jpg" /></td>
+
+												<td align="left" nowrap="nowrap" style="width: 9%" valign="middle"><span style="font-size: 16px">110-06-17</span></td>
+
+												<td align="left" style="width: 65%" valign="middle"><span style="font-size: 16px"><a href="https://www.nqu.edu.tw/cht/index.php?code=list&flag=detail&ids=13&article_id=68210" >【國立彰化師範大學】「2021社會實踐與大學社會責任(U...</a></span></td>
+
+												<td align="left" style="width: 15%" valign="middle"><span style="font-size: 16px">研究發展處</span></td>
+
+												<td align="left" style="width: 7%" valign="middle"><span style="font-size: 16px">12</span></td>
+
+											</tr>
+
+										</tbody>
+
+									</table>
+
+									</td>
+
+								</tr>
+
+								<tr>
+
+									<td align="left" valign="top"><img alt="" src="../upload/webstyle_default/Image/line_01.jpg" style="height: 2px; width: 770px" /></td>
+
+								</tr>
+
+							</tbody>
+
+						</table>
+
+						
+
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+							<tbody>
+
+								<tr>
+
+									<td align="left" valign="top">
+
+									<table align="center" border="0" cellpadding="2" cellspacing="3" id="new02" width="100%">
+
+										<tbody>
+
+											<tr>
+
+												<td align="center" valign="middle" width="3%"><img alt="*" src="../upload/webstyle_default/Image/icon_01.jpg" /></td>
+
+												<td align="left" nowrap="nowrap" style="width: 9%" valign="middle"><span style="font-size: 16px">110-06-17</span></td>
+
+												<td align="left" style="width: 65%" valign="middle"><span style="font-size: 16px"><a href="https://www.nqu.edu.tw/cht/index.php?code=list&flag=detail&ids=13&article_id=68209" >【財團法人台灣永續能源研究基金會】「2021第14屆台灣...</a></span></td>
+
+												<td align="left" style="width: 15%" valign="middle"><span style="font-size: 16px">環境保護暨安全衛生中心</span></td>
+
+												<td align="left" style="width: 7%" valign="middle"><span style="font-size: 16px">7</span></td>
+
+											</tr>
+
+										</tbody>
+
+									</table>
+
+									</td>
+
+								</tr>
+
+								<tr>
+
+									<td align="left" valign="top"><img alt="" src="../upload/webstyle_default/Image/line_01.jpg" style="height: 2px; width: 770px" /></td>
+
+								</tr>
+
+							</tbody>
+
+						</table>
+
+						
+
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+							<tbody>
+
+								<tr>
+
+									<td align="left" valign="top">
+
+									<table align="center" border="0" cellpadding="2" cellspacing="3" id="new02" width="100%">
+
+										<tbody>
+
+											<tr>
+
+												<td align="center" valign="middle" width="3%"><img alt="*" src="../upload/webstyle_default/Image/icon_01.jpg" /></td>
+
+												<td align="left" nowrap="nowrap" style="width: 9%" valign="middle"><span style="font-size: 16px">110-06-17</span></td>
+
+												<td align="left" style="width: 65%" valign="middle"><span style="font-size: 16px"><a href="https://www.nqu.edu.tw/cht/index.php?code=list&flag=detail&ids=13&article_id=68208" >【國立臺灣師範大學】「華人資訊語文競技與創意設計大賞─2...</a></span></td>
+
+												<td align="left" style="width: 15%" valign="middle"><span style="font-size: 16px">研究發展處</span></td>
+
+												<td align="left" style="width: 7%" valign="middle"><span style="font-size: 16px">6</span></td>
+
+											</tr>
+
+										</tbody>
+
+									</table>
+
+									</td>
+
+								</tr>
+
+								<tr>
+
+									<td align="left" valign="top"><img alt="" src="../upload/webstyle_default/Image/line_01.jpg" style="height: 2px; width: 770px" /></td>
+
+								</tr>
+
+							</tbody>
+
+						</table>
+
+						
+
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+							<tbody>
+
+								<tr>
+
+									<td align="left" valign="top">
+
+									<table align="center" border="0" cellpadding="2" cellspacing="3" id="new02" width="100%">
+
+										<tbody>
+
+											<tr>
+
+												<td align="center" valign="middle" width="3%"><img alt="*" src="../upload/webstyle_default/Image/icon_01.jpg" /></td>
+
+												<td align="left" nowrap="nowrap" style="width: 9%" valign="middle"><span style="font-size: 16px">110-06-16</span></td>
+
+												<td align="left" style="width: 65%" valign="middle"><span style="font-size: 16px"><a href="https://www.nqu.edu.tw/cht/index.php?code=list&flag=detail&ids=13&article_id=68198" >【僑務委員會】「2021年海外青年線上營隊」採購公告</a></span></td>
+
+												<td align="left" style="width: 15%" valign="middle"><span style="font-size: 16px">研究發展處</span></td>
+
+												<td align="left" style="width: 7%" valign="middle"><span style="font-size: 16px">52</span></td>
+
+											</tr>
+
+										</tbody>
+
+									</table>
+
+									</td>
+
+								</tr>
+
+								<tr>
+
+									<td align="left" valign="top"><img alt="" src="../upload/webstyle_default/Image/line_01.jpg" style="height: 2px; width: 770px" /></td>
+
+								</tr>
+
+							</tbody>
+
+						</table>
+
+						
+
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+							<tbody>
+
+								<tr>
+
+									<td align="left" valign="top">
+
+									<table align="center" border="0" cellpadding="2" cellspacing="3" id="new02" width="100%">
+
+										<tbody>
+
+											<tr>
+
+												<td align="center" valign="middle" width="3%"><img alt="*" src="../upload/webstyle_default/Image/icon_01.jpg" /></td>
+
+												<td align="left" nowrap="nowrap" style="width: 9%" valign="middle"><span style="font-size: 16px">110-06-16</span></td>
+
+												<td align="left" style="width: 65%" valign="middle"><span style="font-size: 16px"><a href="https://www.nqu.edu.tw/cht/index.php?code=list&flag=detail&ids=13&article_id=68195" >【天下雜誌】敬邀參與第二屆「U20地球的新聲」青年徵件活</a></span></td>
+
+												<td align="left" style="width: 15%" valign="middle"><span style="font-size: 16px">研究發展處</span></td>
+
+												<td align="left" style="width: 7%" valign="middle"><span style="font-size: 16px">61</span></td>
+
+											</tr>
+
+										</tbody>
+
+									</table>
+
+									</td>
+
+								</tr>
+
+								<tr>
+
+									<td align="left" valign="top"><img alt="" src="../upload/webstyle_default/Image/line_01.jpg" style="height: 2px; width: 770px" /></td>
+
+								</tr>
+
+							</tbody>
+
+						</table>
+
+						
+
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+							<tbody>
+
+								<tr>
+
+									<td align="left" valign="top">
+
+									<table align="center" border="0" cellpadding="2" cellspacing="3" id="new02" width="100%">
+
+										<tbody>
+
+											<tr>
+
+												<td align="center" valign="middle" width="3%"><img alt="*" src="../upload/webstyle_default/Image/icon_01.jpg" /></td>
+
+												<td align="left" nowrap="nowrap" style="width: 9%" valign="middle"><span style="font-size: 16px">110-06-15</span></td>
+
+												<td align="left" style="width: 65%" valign="middle"><span style="font-size: 16px"><a href="https://www.nqu.edu.tw/cht/index.php?code=list&flag=detail&ids=13&article_id=68186" >【臺南市家庭教育中心】110年度約用人員甄選</a></span></td>
+
+												<td align="left" style="width: 15%" valign="middle"><span style="font-size: 16px">就業輔導暨校友服務中心</span></td>
+
+												<td align="left" style="width: 7%" valign="middle"><span style="font-size: 16px">255</span></td>
+
+											</tr>
+
+										</tbody>
+
+									</table>
+
+									</td>
+
+								</tr>
+
+								<tr>
+
+									<td align="left" valign="top"><img alt="" src="../upload/webstyle_default/Image/line_01.jpg" style="height: 2px; width: 770px" /></td>
+
+								</tr>
+
+							</tbody>
+
+						</table>
+
+						</td>
+
+					</tr>
+
+				</tbody>
+
+			</table>
+
+			</td>
+
+		</tr>
+
+		<tr>
+
+			<td align="left" style="height: 25px" valign="top"> </td>
+
+		</tr>
+
+	</tbody>
+
+</table>
+
+</td>
+
+					</tr>
+
+				</tbody>
+
+			</table>
+
+			</td>
+
+		</tr>
+
+	</tbody>
+
+</table>
+
+</td>
+
+            <td valign="top" align="left">
+
+            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+
+                <tbody>
+
+                    <tr>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+            </td>
+
+        </tr>
+
+    </tbody>
+
+</table></div>
+
+    <div><table align="left" border="0" cellpadding="0" cellspacing="0" style="width: 988px">
+
+	<tbody>
+
+		<tr>
+
+			<td align="left" valign="top"><img alt="" src="../upload/webstyle_default/Image/foot_01.jpg" /></td>
+
+		</tr>
+
+		<tr>
+
+			<td style="height: 25px; width: 700px; vertical-align: middle; background-color: #ff6600"><span style="font-size: 16px"><strong>&nbsp;<span style="color: #ffffff">學校簡介【</span><a href="https://youtu.be/XbGs1zfOvJ4" target="_blank"><span style="color: #ffffff">中文</span></a><span style="color: #ffffff">、</span><a href="https://youtu.be/CZVTTvDI9iM" target="_blank"><span style="color: #ffffff">英文</span></a><span style="color: #ffffff">】</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.nqu.edu.tw/orgsecrectary/index.php?code=list&amp;ids=2790" target="_blank"><span style="color: #ffffff"><span style="background-color: #ff6600">捐款專區</span></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>&nbsp;&nbsp;&nbsp; <strong><a href="https://www.nqu.edu.tw/cht/index.php?code=list&amp;ids=1616" target="_blank"><span style="color: #ffffff"><span style="background-color: #ff6600">行事曆</span></span></a><span style="color: #ffffff">&nbsp;</span></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong><a href="https://www.nqu.edu.tw/orgstuff/index.php?code=list&amp;flag=detail&amp;ids=604&amp;article_id=12264" target="_blank"><span style="color: #ffffff"><span style="background-color: #ff6600">單位總表</span></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://admission.nqu.edu.tw/index.ASP" target="_blank"><span style="color: #ffffff">招生系統</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.nqu.edu.tw/teach/index.php?code=list&amp;ids=1709" target="_blank"><span style="color: #ffffff">高教深耕計畫</span></a></strong></span><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><span style="font-size: 16px"><strong><a href="https://www.nqu.edu.tw/orgstudent/index.php?code=list&amp;flag=detail&amp;ids=810&amp;article_id=68017" target="_blank"><span style="color: #ffffff">畢業專區</span></a></strong></span></td>
+
+		</tr>
+
+		<tr>
+
+			<td align="left" valign="top">
+
+			<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+				<tbody>
+
+					<tr>
+
+						<td align="left" nowrap="nowrap" valign="top">
+
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+							<tbody>
+
+								<tr>
+
+									<td align="center" nowrap="nowrap" valign="top">
+
+									<table border="0" cellpadding="3" cellspacing="1" width="90%">
+
+										<tbody>
+
+											<tr>
+
+												<td nowrap="nowrap" style="width: 850px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;網頁更新日期：<span style="padding-left: 3px; padding-right: 15px">2021-06-17</span>目前線上人數：179 人&nbsp;&nbsp;&nbsp; 總瀏覽人數：19337443 人</td>
+
+											</tr>
+
+											<tr>
+
+												<td nowrap="nowrap" style="width: 850px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.adobe.com/tw/downloads/" target="_blank" title="本連結將另開新視窗至Flash下載"><font color="#0066cc">Flash下載</font></a> ∣ <a href="http://www.adobe.com/tw/downloads/" target="_blank" title="本連結將另開新視窗至PDF下載"><font color="#0066cc">PDF下載</font></a> ∣ <a href="index.php?code=list&amp;ids=26" title="隱私權政策"><font color="#0066cc">隱私權政策</font></a> ∣ <a href="index.php?code=list&amp;ids=27" title="資訊安全政策"><font color="#0066cc">網站資訊安全政策 </font></a>∣ <a href="index.php?code=list&amp;ids=28" title="RSS訂閱說明"><font color="#0066cc">RSS訂閱說明</font></a></td>
+
+											</tr>
+
+										</tbody>
+
+									</table>
+
+									</td>
+
+								</tr>
+
+								<tr>
+
+									<td align="center" style="width: 700px" valign="top">
+
+									<table border="0" cellpadding="0" cellspacing="0" width="90%">
+
+										<tbody>
+
+											<tr>
+
+												<td align="left" valign="top" width="98%">
+
+												<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+													<tbody>
+
+														<tr>
+
+															<td align="left" style="width: 15%" valign="top">&nbsp;</td>
+
+															<td align="left" valign="top" width="1%"><img alt="頁腳小圖示" src="../upload/orgsport/images/foot_05.png" /></td>
+
+															<td align="left" valign="middle">　電話：+886-82-313300</td>
+
+															<td align="left" valign="top" width="1%"><img alt="頁腳小圖示" src="../upload/orgsport/images/foot_06.png" /></td>
+
+															<td align="left" nowrap="nowrap" valign="middle">　傳真：+886-82-313304</td>
+
+															<td align="left" valign="top" width="1%"><img alt="頁腳小圖示" src="../upload/orgsport/images/foot_07.png" /></td>
+
+															<td align="left" nowrap="nowrap" valign="middle">　意見信箱：msg@nqu.edu.tw</td>
+
+														</tr>
+
+														<tr>
+
+															<td align="left" valign="top" width="1%">&nbsp;</td>
+
+															<td align="left" valign="top" width="1%"><img alt="頁腳小圖示" src="../upload/orgsport/images/foot_05.png" /></td>
+
+															<td align="left" nowrap="nowrap" valign="middle">　地址：892009 金門縣金寧鄉大學路一號</td>
+
+															<td align="left" valign="top" width="1%"><img alt="頁腳小圖示" src="../upload/orgsport/images/foot_06.png" /></td>
+
+															<td align="left" colspan="3" nowrap="nowrap" valign="middle">　2009 Copyright &copy; Taiwan Digital Archives Ecpansion Project.</td>
+
+														</tr>
+
+														<tr>
+
+															<td align="left" valign="top" width="1%">&nbsp;</td>
+
+															<td align="left" valign="top" width="1%"><img alt="頁腳小圖示" src="../upload/orgsport/images/foot_05.png" /></td>
+
+															<td align="left" nowrap="nowrap" style="vertical-align: middle">　網站維護商電話:(02)8953-0838 #658</td>
+
+															<td align="left" nowrap="nowrap" valign="middle">&nbsp;</td>
+
+															<td colspan="3" nowrap="nowrap" rowspan="2" style="vertical-align: top">
+
+															<table align="left" border="0" cellpadding="1" cellspacing="3" style="width: 200px">
+
+																<tbody>
+
+																	<tr>
+
+																		<td><a href="#" target="_blank"><img alt="本連結將另開新視窗至無障礙網站" border="0" src="../upload/webstyle_default/Image/a+.jpg" style="float: left" title="本連結將另開新視窗至無障礙網站" /></a></td>
+
+																		<td><a href="http://www.gov.tw/" target="_blank"><img alt="本連結將另開新視窗至我的E政府" border="0" src="../upload/webstyle_default/Image/egov.jpg" style="float: left" title="本連結將另開新視窗至我的E政府" /></a></td>
+
+																		<td><a href="https://www.nqu.edu.tw/upload/orgstudent/article/51ce1ea321f5376eee7964cb44c791a6.jpg" target="_blank"><img alt="國立金門大學無障礙地圖" src="https://www.nqu.edu.tw/js/upload/ckfinder/images/%E7%84%A1%E9%9A%9C%E7%A4%99%E5%9C%B0%E5%9C%96.jpg" style="border-top: 0px solid; height: 31px; border-right: 0px solid; width: 130px; border-bottom: 0px solid; float: left; border-left: 0px solid" title="國立金門大學無障礙地圖" /></a></td>
+
+																	</tr>
+
+																</tbody>
+
+															</table>
+
+															</td>
+
+														</tr>
+
+														<tr>
+
+															<td align="left" valign="top" width="1%">&nbsp;</td>
+
+															<td align="left" nowrap="nowrap" valign="middle">&nbsp;</td>
+
+															<td align="left" nowrap="nowrap" valign="middle">&nbsp;</td>
+
+														</tr>
+
+														<tr>
+
+															<td align="left" valign="top" width="1%">&nbsp;</td>
+
+															<td align="left" nowrap="nowrap" valign="middle">&nbsp;</td>
+
+															<td align="left" nowrap="nowrap" valign="middle">&nbsp;</td>
+
+															<td colspan="3" nowrap="nowrap" style="vertical-align: top">&nbsp;</td>
+
+														</tr>
+
+													</tbody>
+
+												</table>
+
+												</td>
+
+												<td align="left" valign="top" width="1%">
+
+												<table border="0" cellpadding="20" cellspacing="20" width="100%">
+
+													<tbody>
+
+														<tr>
+
+															<td><span>﻿</span>﻿</td>
+
+														</tr>
+
+													</tbody>
+
+												</table>
+
+												</td>
+
+												<td align="left" valign="top" width="1%"><img alt="" src="../upload/webstyle_default/Image/foot_02.jpg" /></td>
+
+											</tr>
+
+										</tbody>
+
+									</table>
+
+									</td>
+
+								</tr>
+
+							</tbody>
+
+						</table>
+
+						</td>
+
+					</tr>
+
+				</tbody>
+
+			</table>
+
+			</td>
+
+		</tr>
+
+	</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+<!--
+
+<p align="center">
+
+
+
+-->
+
+
+
+</body>
+
+
+
+</html>

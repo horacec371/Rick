@@ -31,8 +31,9 @@
 #include <unistd.h>
 #endif
 #include <curl/curl.h>
- 
-static const char *urls[] = {
+
+// 使用之連結
+static const char *urls[] = { 
   "https://www.microsoft.com",
   "https://opensource.org",
   "https://www.google.com",
@@ -82,12 +83,12 @@ static const char *urls[] = {
   "https://www.un.org",
 };
  
-#define MAX_PARALLEL 10 /* number of simultaneous transfers */
+#define MAX_PARALLEL 10 /* 定義同時傳送的量 */
 #define NUM_URLS sizeof(urls)/sizeof(char *)
  
 static size_t write_cb(char *data, size_t n, size_t l, void *userp)
 {
-  /* take care of the data here, ignored in this example */
+  /* 處理這些資料，但在此測試範例中忽略 */
   (void)data;
   (void)userp;
   return n*l;
@@ -113,7 +114,7 @@ int main(void)
   curl_global_init(CURL_GLOBAL_ALL);
   cm = curl_multi_init();
  
-  /* Limit the amount of simultaneous connections curl should allow: */
+  /* 限制爬蟲可允許的同時連接數量 */
   curl_multi_setopt(cm, CURLMOPT_MAXCONNECTS, (long)MAX_PARALLEL);
  
   for(transfers = 0; transfers < MAX_PARALLEL; transfers++)
