@@ -1,4 +1,4 @@
-# 期末專案:爬蟲
+# 期末專案:爬蟲實作
 ## 說明
 * 此程式非本人原創，參考[Curl_Example Sources](https://curl.se/libcurl/c/example.html)的程式碼，理解後補上註解並修改。
 * 此程式碼之版權屬於Daniel Stenberg大神，再此附上[版權說明](https://curl.se/docs/copyright.html)
