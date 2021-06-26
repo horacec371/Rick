@@ -16,3 +16,5 @@
 [第十四週](https://github.com/cycyucheng1010/sp109b/blob/main/Note/20210526%E7%AC%AC%E5%8D%81%E5%9B%9B%E9%80%B1%E7%AD%86%E8%A8%98.md) | HTTP協定格式 <br> 程式實作: <br> helloWebServer <br> htmlthreadserver <br> fifo
 [第十五週](https://github.com/cycyucheng1010/sp109b/blob/main/Note/20210602%E7%AC%AC%E5%8D%81%E4%BA%94%E9%80%B1%E7%AD%86%E8%A8%98.md) | 程式實作: <br> chat <br> 實作補充: <br> fork() <br> mkfio()
 [第十六週](https://github.com/cycyucheng1010/sp109b/blob/main/Note/20210609%E7%AC%AC%E5%8D%81%E5%85%AD%E9%80%B1%E7%AD%86%E8%A8%98.md) |   UDP V.S. TCP <br> 程式實作: <br> server.c <br> client.c
+[第十七週](https://github.com/cycyucheng1010/sp109b/blob/main/Note/20210616%E7%AC%AC%E5%8D%81%E4%B8%83%E9%80%B1%E7%AD%86%E8%A8%98.md) | RISC-V: <br> 簡介 <br> 壓縮指令集
+[第十八週](https://github.com/cycyucheng1010/sp109b/blob/main/Note/20210623%E7%AC%AC%E5%8D%81%E5%85%AB%E9%80%B1%E7%AD%86%E8%A8%98.md) | XV6
